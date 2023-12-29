@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+<head>
+    <title>Formulario de Reserva</title>
+</head>
+<body>
+    <form action="procesar_reserva.php" method="post">
+        <label for="nie">NIE:</label>
+        <input type="text" name="nie" id="nie" required>
+
+        <label for="nombre">Nombres:</label>
+        <input type="text" name="nombre" id="nombre" required>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" name="apellidos" id="apellidos" required>
+
+        <label for="correo">Correo:</label>
+        <input type="email" name="correo" id="correo" required>
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" name="fecha" id="fecha" required>
+
+        <input type="submit" value="Reservar">
+    </form>
+</body>
+</html>

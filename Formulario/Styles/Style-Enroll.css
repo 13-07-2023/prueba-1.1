@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+}
+
+body {
+    background-image: url(../Resources/background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    text-decoration: underline 2px solid rgba(0, 0, 0, 0);
+    margin-bottom: 60px;
+    cursor: default;
+    transition: 0.2s;
+}
+
+h1:hover {
+    text-decoration: underline 2px solid black;
+} 

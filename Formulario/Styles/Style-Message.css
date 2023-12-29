@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+}
+
+body {
+    background-image: url(../Resources/background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(90, 205, 115);
+    cursor: default;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    margin-top: 30%;
+}
+
+#real-div {
+    cursor: default;
+    margin-top: 3.5%;
+    margin-left: 30%;
+    display: block;
+    background-color: rgb(46, 165, 42, 0.062);
+    text-align: center;
+    width: 530px;
+    height: 530px;
+    border-radius: 10px;
+    border: 2px solid rgb(96, 216, 92);
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#real-div:hover {
+    border: 2px solid rgb(32, 235, 25);
+}
+
+div {
+    margin-top: 39%;
+}
+
+button {
+    cursor: pointer;
+    border: 2px solid rgb(90, 205, 115);
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    width: 415px;
+    margin: auto;
+    display: block;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: rgb(90, 205, 115);
+    color: white;
+}
+
+#h1-else {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(205, 90, 90);
+    cursor: default;
+}
+
+#real-div-else {
+    cursor: default;
+    margin-top: 3.5%;
+    margin-left: 30%;
+    display: block;
+    background-color: rgba(165, 42, 42, 0.062);
+    text-align: center;
+    width: 530px;
+    height: 530px;
+    border-radius: 10px;
+    border: 2px solid rgb(216, 92, 92);
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#real-div-else:hover {
+    border: 2px solid rgb(235, 25, 25);
+}
+
+#button-else {
+    cursor: pointer;
+    border: 2px solid rgb(205, 90, 90);
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    width: 415px;
+    margin: auto;
+    display: block;
+    transition: 0.2s;
+}
+
+#button-else:hover {
+    background-color: rgb(205, 90, 90);
+    color: white;
+}

@@ -1,0 +1,382 @@
+#body_index {
+    background-image: url(fondos/fondo.jpg);
+}
+
+h1 {
+    font-family: Courier;
+    font-size: 34px;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    font-size: 24px;
+    font-family: Courier;
+    color: black
+}
+
+h3 {
+    font-family: Courier;
+    color: aliceblue;
+}
+
+
+#historia {
+    background-image: url(fondos/fondo4.jpg);
+}
+
+#vision {
+    background-image: url(fondos/fondo5.jpg);
+}
+
+#mision {
+    background-image: url(fondos/fondo6.jpg);
+}
+
+#h1_index {
+    font-size: 34px;
+    color: aliceblue;
+}
+
+#h2_index {
+    font-size: 24px;
+    color: aliceblue;
+}
+
+#cite_index {
+    font-size: 24px;
+    color: aliceblue;
+}
+
+#footer_index {
+    color: aliceblue;
+}
+
+#cite_inde {
+    color: aliceblue;
+}
+
+#h3_vision {
+    color: black
+}
+
+#navegador ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#navegador li {
+    display: inline;
+    text-align: center;
+    margin: 0px 10px 0 0;
+}
+
+#navegador li a {
+    padding: 2px 7px 2px 7px;
+    color: #ffffff;
+    border: 1px lightblue;
+    text-decoration: none;
+}
+
+#navegador li a:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+#navegador_history li {
+    display: inline;
+    text-align: center;
+}
+
+#navegador_history {
+    text-align: center;
+}
+
+#navegador_vision li a {
+    padding: 2px 7px 2px 7px;
+    color: #000000;
+    border: 1px lightblue;
+    text-decoration: none;
+}
+
+#navegador_vision li {
+    display: inline;
+    text-align: center;
+    margin: 0px 10px 0 0;
+}
+
+#navegador_vision li a:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+#navegador_vision {
+    color: white;
+    text-align: center;
+}
+
+.caja {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color: aliceblue;
+    background: #889ccf;
+    margin: 0px 15px;
+    overflow: hidden;
+    padding: 20px;
+    overflow: auto;
+    width: 880px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px 0px rgb(58, 0, 112);
+}
+
+.caja1 {
+    display: flex;
+}
+
+.imagen {
+    width: 100%;
+    height: 40%;
+    border-radius: 30px;
+}
+
+#body_ideario {
+    background-image: url(fondo3.jpg);
+    font-family: Franklin Gothic Medium;
+    color: rgb(255, 255, 255);
+}
+
+#ideario {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family: Franklin Gothic Medium;
+}
+
+#ideario_sub {
+    font-size: 36px;
+    color: aliceblue;
+    font-family: Franklin Gothic Medium;
+}
+
+#navegador_mis ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#navegador_mis li {
+    display: inline;
+    text-align: center;
+    margin: 0px 3px 0px 0px;
+    font-size: 20px;
+}
+
+#navegador_mis li a {
+    padding: 2px 5px 2px 7px;
+    color: #ffffff;
+    border: 1px lightblue;
+    text-decoration: none;
+}
+
+#navegador_mis li a:hover {
+    color: #f10a0a;
+}
+
+#navegador_mis {
+    font-weight: 200;
+    color: aliceblue;
+    background-image: url(fondos/fondo.jpg);
+    margin: 0px 410px;
+    overflow: hidden;
+    padding: 5px;
+    overflow: auto;
+    width: 500px;
+    height: auto;
+    border-radius: 600px;
+}
+
+#titulo {
+    font-size: 48px;
+    font-family: Courier;
+    align-self: center;
+}
+
+#menu li {
+    display: inline;
+    margin: 0px 10px 0 0;
+    text-align: center;
+}
+
+#menu li a {
+    padding: 2px 7px 2px 7px;
+    border: 4px black;
+    border: 1px lightblue;
+    text-decoration: none;
+}
+
+#menu li :hover {
+    background-color: blueviolet;
+}
+
+#menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.logo1 {
+    width: 40px;
+    height: 34px;
+    margin-top: 5px;
+}
+
+/* estilos.css */
+nav ul {
+    background-image: url(Fondos/fondo6.jpg);
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+nav li {
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+nav img {
+    width: 50px;
+    /* Ajusta el tamaño de la imagen según tus necesidades */
+    display: block;
+    margin: 0 auto;
+    /* Centra la imagen horizontalmente */
+}
+
+nav span {
+    display: block;
+    text-align: center;
+}
+
+
+li a:hover {
+    color: rgb(4, 0, 255);
+    border-radius: 5px;
+}
+
+#nav_vision ul{
+    background-image: url(Fondos/fondo5.jpg);
+}
+
+#nav_histo ul {
+    background-image: url(Fondos/fondo4.jpg);
+}
+
+#nav_histo li a {
+    color: black;
+}
+
+.c1 {
+    display: flex;
+}
+
+.c {
+    font-size: 15px;
+    font-weight: 100;
+    background-color: transparent;
+    overflow: hidden;
+    padding: 15px;
+    overflow: auto;
+    width: 270px;
+    height: 60px;
+    margin: 6px 6px;
+    font-size: 12px;
+    font-family: Impact;
+    padding: 0%;
+    text-align: center;
+}
+
+img {
+    width: 9%;
+    height: 9%;
+    display: inline;
+}
+
+.tsk {
+    font-size: 15px;
+    font-weight: 100;
+    background-color: transparent;
+    overflow: hidden;
+    padding: 15px;
+    overflow: auto;
+    width: 240px;
+    height: 105px;
+    margin: 6px 6px;
+    font-size: 12px;
+    font-family: Impact;
+    padding: 0%;
+}
+
+.t1 {
+    cursor: context-menu;
+    color: black;
+    font-size: 15px;
+}
+
+.n1 {
+    cursor: context-menu;
+    color: black;
+    font-size: 15px;
+}
+
+#pie1 {
+    font-family: Impact;
+    font-size: 15px;
+    color: black;
+}
+
+#pie {
+    border: solid 1px black;
+}
+
+#pie2 {
+    font-family: Impact;
+    font-size: 15px;
+    color: white;
+}
+
+.c2 {
+    display: flex;
+}
+
+.k {
+    font-size: 15px;
+    font-weight: 100;
+    background-color: transparent;
+    overflow: hidden;
+    padding: 15px;
+    overflow: auto;
+    width: 270px;
+    height: 60px;
+    margin: 6px 6px;
+    font-size: 12px;
+    font-family: Impact;
+    padding: 0%;
+    text-align: center;
+}
+
+img {
+    width: 9%;
+    height: 9%;
+    display: inline;
+}

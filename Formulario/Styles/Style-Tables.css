@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+}
+
+body {
+    background-image: url(../Resources/background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    text-decoration: underline 2px solid rgba(0, 0, 0, 0);
+    margin-bottom: 60px;
+    cursor: default;
+    transition: 0.2s;
+}
+
+h1:hover {
+    text-decoration: underline 2px solid black;
+} 
+
+table {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: default;
+    margin: auto;
+    border-spacing: 0px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.219);
+    width: 90%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 6px;
+    font-family: Helvetica;
+    margin: 0px;
+    transition: 0.25s;
+}
+
+th:hover {
+    background-color: slateblue;
+    color: white;
+}
+
+td:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+td:hover img {
+    transform: scale(1.05);
+}
+
+
+.del_button:hover {
+    transform: scale(1.05);
+}
+
+.del_button img {
+    margin-top: 5px;
+    height: 16px;
+    width: 16px;
+}
+
+
+
