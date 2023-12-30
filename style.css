@@ -277,13 +277,13 @@ nav span{
     text-align: center;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1315px) {
     nav{
         width: 100%;
         display: flex;
     }
     header{
-        width: 75%;
+        width: 100%;
         text-align:center;
         display: flex;
     }
@@ -292,9 +292,8 @@ nav span{
         display: block;
     }
     .swiper-slide img {
-        width: 50%;
+        width: 100%;
         align-items: center;
-        margin-left: 50%;
     }
     .text_container{
         display: block;
