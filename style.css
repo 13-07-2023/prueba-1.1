@@ -277,21 +277,22 @@ nav span{
     text-align: center;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1280px) {
     nav{
         width: 100%;
     }
     header{
-        width: 100%;
+        width: 75%;
+        text-align:center;
     }
     .container{
         width: 100%;
         display: block;
     }
     .swiper-slide img {
-        width: 25%;
+        width: 50%;
         align-items: center;
-        margin-left: 2%;
+        margin-left: 50%;
     }
     .text_container{
         display: block;
