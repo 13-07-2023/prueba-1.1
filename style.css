@@ -289,9 +289,9 @@ nav span{
         display: block;
     }
     .swiper-slide img {
-        width: 75%;
+        width: 25%;
         align-items: center;
-        margin-left: 15%;
+        margin-left: 2%;
     }
     .text_container{
         display: block;
